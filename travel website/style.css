@@ -1,0 +1,386 @@
+nav{
+    background-color: rgb(39, 39, 67);
+    width: 100%;
+    height: 150px;
+    padding: 0;
+    position: sticky;
+    top: 0;
+}
+.image{
+    position: absolute;
+    top: 0;
+   
+}
+
+.image img{
+    
+    width: 50%;
+    padding: 10px;
+    margin-left:400px;
+}
+.color{
+    background-color: rgb(39, 39, 67);
+}
+.color ul li a{
+    color: rgb(39, 39, 67);;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+    font-size: 20px;
+}
+nav a:hover {
+    color: yellow;
+}
+.topic0{
+    display: flex;
+    gap: 2rem;
+    margin: 50px;
+}
+.row{
+    display: flex;
+    margin: 0;
+    gap: 1rem;
+    width: 5000px;
+    height: 250px;
+}
+.col{
+    width: 400px;
+    height: 220px;
+    box-shadow:4px 4px 5px 2px rgba(56, 53, 53, 0.481);
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+.col:hover{
+    box-shadow:4px 4px 5px 2px rgba(56, 53, 53, 0.481);
+    transition: all 0.3s ease-in-out;
+}
+.container h3{
+    margin-left: 40%;
+}
+.row1{
+    display:flex;
+    
+}
+.pic1 img{
+   width: 200px;
+   gap: 5rem;
+}
+.pic2 img{
+    width: 200px;
+    gap: 5rem;
+ }
+ .pic3 img{
+    width: 200px;
+    gap: 5rem;
+ }
+ .pic4 img{
+    width: 200px;
+    gap: 5rem;
+ }
+ .pic5 img{
+    width: 200px;
+    gap: 5rem;
+ }
+ .pic6 img{
+    width: 200px;
+    gap: 5rem;
+ }
+ .pic7 img{
+    width: 200px;
+    gap: 5rem;
+ }
+.topic1{
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/30/00/03/winding-road-1556177_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+}
+.topic1 h1{
+    margin-left: 550px;
+    color: aliceblue;
+}
+.topic1 p{
+    justify-content: center;
+    align-items:center;
+    text-align: justify;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: aliceblue;
+}
+.topic1 p strong{
+    margin-left: 450px;
+}
+#about h3{
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+}
+.video2 h4{
+    margin-left: 10%;
+    text-align: justify;
+}
+.video2 p{
+    margin: 0;
+    text-align: justify;
+    align-items: center;
+    width: 800px;
+}
+
+.video2{
+    margin-left: 25%;
+}
+#contact {
+    background-color: rgb(39, 39, 67);
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+form label {
+    display: flex;
+   
+    margin-bottom: 8px;
+    color: #333;
+}
+form button{
+    margin-right: 400px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #333;
+
+}
+footer{
+    background-color:rgb(84, 84, 120) ;
+}
+footer a{
+    color: white;
+}
+
+@media all and (max-width:600px){
+
+    nav{
+        background-color: rgb(39, 39, 67);
+        width: 100%;
+        height: 150px;
+        padding: 0;
+        position: sticky;
+        top: 0;
+    }
+    .image{
+        position: absolute;
+        top: 0;
+       
+    }
+    
+    .image img{
+        
+        width: 50%;
+        padding: 10px;
+        margin-left:400px;
+    }
+    .color{
+        background-color: rgb(39, 39, 67);
+    }
+    .color ul li a{
+        color: rgb(39, 39, 67);;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        transition: color 0.2s ease-in-out;
+        font-size: 20px;
+    }
+    nav a:hover {
+        color: yellow;
+    }
+    .topic0{
+        display: flex;
+        gap: 2rem;
+        margin: 50px;
+    }
+    .row{
+        display: flex;
+        margin: 0;
+        gap: 1rem;
+        width: 5000px;
+        height: 250px;
+    }
+    .col{
+        width: 400px;
+        height: 220px;
+        box-shadow:4px 4px 5px 2px rgba(56, 53, 53, 0.481);
+        transition: all 0.3s ease-in-out;
+        border-radius: 20px;
+    }
+    .col:hover{
+        box-shadow:4px 4px 5px 2px rgba(56, 53, 53, 0.481);
+        transition: all 0.3s ease-in-out;
+    }
+    .container h3{
+        margin-left: 40%;
+    }
+    .row1{
+        display:flex;
+        
+    }
+    .pic1 img{
+       width: 200px;
+       gap: 5rem;
+    }
+    .pic2 img{
+        width: 200px;
+        gap: 5rem;
+     }
+     .pic3 img{
+        width: 200px;
+        gap: 5rem;
+     }
+     .pic4 img{
+        width: 200px;
+        gap: 5rem;
+     }
+     .pic5 img{
+        width: 200px;
+        gap: 5rem;
+     }
+     .pic6 img{
+        width: 200px;
+        gap: 5rem;
+     }
+     .pic7 img{
+        width: 200px;
+        gap: 5rem;
+     }
+    .topic1{
+        background-image: url(https://cdn.pixabay.com/photo/2016/07/30/00/03/winding-road-1556177_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        width: 100%;
+        height: 1000px;
+        margin: 0;
+    }
+    .topic1 h1{
+        margin-left: 550px;
+        color: aliceblue;
+    }
+    .topic1 p{
+        justify-content: center;
+        align-items:center;
+        text-align: justify;
+        position: absolute;
+        margin-left: 100px;
+        margin-right: 100px;
+        color: aliceblue;
+    }
+    .topic1 p strong{
+        margin-left: 450px;
+    }
+    #about h3{
+        align-items: center;
+        text-align: center;
+        margin-left: 50%;
+    }
+    .video2 h4{
+        margin-left: 10%;
+        text-align: justify;
+    }
+    .video2 p{
+        margin: 0;
+        text-align: justify;
+        align-items: center;
+        width: 800px;
+    }
+    
+    .video2{
+        margin-left: 25%;
+    }
+    #contact {
+        background-color: rgb(39, 39, 67);
+        color: #fff;
+        text-align: center;
+    }
+    
+    form {
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+    
+    form label {
+        display: flex;
+       
+        margin-bottom: 8px;
+        color: #333;
+    }
+    form button{
+        margin-right: 400px;
+    }
+    
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="submit"] {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+       
+    }
+    
+    form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        
+    }
+    
+    form input[type="submit"]:hover {
+        background-color: #ffd700;
+        color: #333;
+    
+    }
+    footer{
+        background-color:rgb(84, 84, 120) ;
+    }
+    footer a{
+        color: white;
+    }
+
+
+
+
+}
