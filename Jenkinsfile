@@ -2,14 +2,14 @@ pipeline {
     agent { label 'windows-agent' }
 
     environment {
-        DEPLOY_DIR = "C:\\inetpub\\wwwroot\\headphone"
+        DEPLOY_DIR = "C:\\inetpub\\wwwroot\\travelsite"
     }
 
     stages {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/1MRCV/headphone.git', branch: 'master'
+                git url: 'https://github.com/1MRCV/travelsite.git', branch: 'master'
             }
         }
 
