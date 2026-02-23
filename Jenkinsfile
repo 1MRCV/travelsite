@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DEPLOY_DIR = "C:\\inetpub\\wwwroot\\travelsite"
-        REPO_URL = "https://github.com/YOUR_USERNAME/travelsite.git"
+        REPO_URL = "https://github.com/1MRCV/travelsite.git"
         BRANCH = "master"
     }
 
